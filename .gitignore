@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Backup files #
+*.bak
+
+# Python #
+*.py[cod]
+*$py.class
+
 # Distribution / packaging
 .Python
 build/
@@ -57,9 +64,13 @@ cover/
 
 # Django stuff:
 *.log
+*.pot
+*.pyc
+__pycache__
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+media
 
 # Flask stuff:
 instance/
@@ -128,6 +139,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# static
+static
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -151,6 +165,25 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Visual Studio Code #
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Personal additions
+__pycache__/
+*.pyc
+__localcode
+venv
+env
+.DS_Store
+local_settings.py
+_local_settings.py
+static/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
